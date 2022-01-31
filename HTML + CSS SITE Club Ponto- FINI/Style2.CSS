@@ -1,0 +1,193 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*----Nav Bar---*/
+#nav-bar
+{
+   width: 120;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar-brand img
+{
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+.navbar .fa
+{
+    margin: 8px;
+}
+.container-fluid
+{
+    text-align: left;
+}
+.nav-link
+{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*---Slider---*/
+#slider
+{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+.carousel-caption
+{
+    top: 40%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-caption h5
+{
+    font-size: 30px;
+
+}
+.first
+{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+.Second
+{
+    position: relative;
+    top: 800px;
+}
+.apropos
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #555;
+}
+.bouton
+{
+    padding-top: 20px;
+    border: 13px;
+
+}
+/*----service-----*/
+.Third
+{
+    position: relative;
+    top: 820px;
+}
+.container2
+{
+    background-image: url(https://www.viseo.com/sites/default/files/2019-06/blur-codes-coding-577585.jpg);
+    filter:url(https://www.viseo.com/sites/default/files/2019-06/blur-codes-coding-577585.jpg) brightness(90%) ;
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container2 h1
+{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+}
+.container2 h1::after
+{
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.row-services
+{
+    padding-left: 620px;
+    text-align: center;
+    font-weight: 700;
+}
+.texte
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-weight: 700;
+}
+.texte2
+{
+    padding-left: 600px;
+}
+.texte3
+{
+    padding-left: 584px;
+}
+.icons
+{
+    font-size: 50px;
+    margin: 5px;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #efe;
+    border-radius: 50%;
+}
+/*--Contacte--*/
+.titre88
+{
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+#Contacter
+{
+    margin-top: 800px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    background-color: rgb(219, 217, 217); 
+}
+.contact-form
+{
+    padding:15px;
+}
+.form-control
+{
+    border-radius: 0;
+    border: none;
+}
+.tamere
+{
+    text-align: right;
+}
+.col-md-6-66
+{
+    margin: 0px;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.col-md-6-contact-info .fa
+{
+    margin: 10px;
+    font-weight: bold;
+}
+/*--Footer---*/
+#footer
+{
+    background: #555;
+}
+.okchacal
+{
+    text-align: center;
+    text-decoration: #efe;
+    padding: 40px;
+}
